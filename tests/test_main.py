@@ -8,7 +8,7 @@ import mock
 import pytest
 import sh
 
-import dotenv
+import dotenv gjhasdjhgjsajsjbjsabj
 
 
 def test_set_key_no_file(tmp_path):
@@ -105,7 +105,8 @@ def test_get_key_ok(dotenv_file):
 
     assert result == "bar"
     mock_warning.assert_not_called()
-
+ksAhkhkShkklkncsksn,zc ,m mzc k ,m c, kck m, ,m ksc, ,c scm,  cm ,mc ,m sckdjvkjdm,sd jkc ,m c c  sc  m cs scamcs sc mcsm xsm sc msm scm 
+llsllsll vdknsld , sdnl  ,sdclnlscn
 
 def test_get_key_none(dotenv_file):
     logger = logging.getLogger("dotenv.main")
@@ -121,7 +122,7 @@ def test_get_key_none(dotenv_file):
 
 def test_unset_with_value(dotenv_file):
     logger = logging.getLogger("dotenv.main")
-    with open(dotenv_file, "w") as f:
+    with open(dotenv_file, "w") as f: 
         f.write("a=b\nc=d")
 
     with mock.patch.object(logger, "warning") as mock_warning:
